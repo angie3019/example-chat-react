@@ -62,7 +62,7 @@ const XmtpInfoPanel = ({ onConnect }: XmtpInfoPanelProps): JSX.Element => {
     },
     {
       icon: <BookOpenIcon />,
-      headingText: 'Read the docs',
+      headingText: 'Read the xmtp docs',
       subHeadingText:
         'Check out the documentation for our protocol and find out how to get up and running quickly',
       onClick: () => window.open('https://docs.xmtp.org', '_blank'),
